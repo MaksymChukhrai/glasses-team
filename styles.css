@@ -179,6 +179,7 @@ header{
   }
 
   .team-member{
+    background: var(--achievements-background-color);
     .team-img img{
         border-radius: 4px;
            height: 388px;
@@ -188,15 +189,16 @@ header{
 
 .team-member h3{
     text-align: center;
-    margin-top: 10px; 
+    padding-top: 10px; 
 }
 
 .team-member p{
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .glasses{
+    padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
 font-family: 'Merriweather';
@@ -205,4 +207,5 @@ line-height: 1.4;
 text-decoration: overline;
 text-decoration:underline;
 }
+
 
