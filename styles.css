@@ -179,12 +179,22 @@ header{
   }
 
   .team-member{
+    width: 100%;
+    max-width: 320px; /* Ограничение ширины карточки */
+    margin: 0 auto; 
     background: var(--achievements-background-color);
-    .team-img img{
+    .team-img {
+      width: 100%; /* Ширина изображения будет равна ширине контейнера */
+      overflow: hidden; 
+    img{
         border-radius: 4px;
-           height: 388px;
-        margin:0 auto;
+           /* height: 388px;
+        margin:0 auto; */
+        width: 100%;
+        height: auto;
+        display: block;
     }
+  }
 } 
 
 .team-member h3{
